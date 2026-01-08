@@ -1,0 +1,11 @@
+{
+  "name": "Cloud Browser",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": [
+    "--shm-size=2g"
+  ],
+  "forwardPorts": [6080],
+  "overrideCommand": false
+}
